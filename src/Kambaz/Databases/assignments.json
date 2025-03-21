@@ -1,0 +1,11 @@
+[
+     { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101", "availableDate": "May 6 at 12:00am", "dueDate": "May 13 at 11:59", "points": "100", "getDueDate": "2024-05-13", "getAvailableFrom": "2024-05-06", "getAvailableUntil": "2024-05-20"},
+     { "_id": "A102", "title": "Combustion Analysis", "course": "RS101", "availableDate": "May 15 at 12:00am", "dueDate": "May 26 at 11:59", "points": "100", "getDueDate": "2024-05-26", "getAvailableFrom": "2024-05-15", "getAvailableUntil": "2024-05-27" },
+     { "_id": "A103", "title": "Nozzle Design Project", "course": "RS101", "availableDate": "May 31 at 12:00am", "dueDate": "June 10 at 11:59", "points": "100", "getDueDate": "2024-06-10", "getAvailableFrom": "2024-05-31", "getAvailableUntil": "2024-06-12" },
+     { "_id": "A201", "title": "Aerodynamics Quiz", "course": "RS102", "availableDate": "May 6 at 12:00am", "dueDate": "May 13 at 11:59", "points": "100", "getDueDate": "2024-05-13", "getAvailableFrom": "2024-05-06", "getAvailableUntil": "2024-05-20" },
+     { "_id": "A202", "title": "Flow Analysis", "course": "RS102", "availableDate": "May 15 at 12:00am", "dueDate": "May 20 at 11:59", "points": "100", "getDueDate": "2024-05-20", "getAvailableFrom": "2024-05-15", "getAvailableUntil": "2024-05-23" },
+     { "_id": "A203", "title": "Heating Analysis", "course": "RS102", "availableDate": "May 25 at 12:00am", "dueDate": "May 31 at 11:59", "points": "100", "getDueDate": "2024-05-31", "getAvailableFrom": "2024-05-25", "getAvailableUntil": "2024-06-01" },
+     { "_id": "A301", "title": "Structural Design Task", "course": "RS103", "availableDate": "May 6 at 12:00am", "dueDate": "May 13 at 11:59", "points": "100", "getDueDate": "2024-05-13", "getAvailableFrom": "2024-05-06", "getAvailableUntil": "2024-05-20" },
+     { "_id": "A302", "title": "Orbital Calculations", "course": "RS103", "availableDate": "May 20 at 12:00am", "dueDate": "May 31 at 11:59", "points": "100", "getDueDate": "2024-05-31", "getAvailableFrom": "2024-05-20", "getAvailableUntil": "2024-06-02" },
+     { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103", "availableDate": "June 6 at 12:00am", "dueDate": "June 13 at 11:59", "points": "100", "getDueDate": "2024-06-13", "getAvailableFrom": "2024-06-06", "getAvailableUntil": "2024-06-20" }
+   ]

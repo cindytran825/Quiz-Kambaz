@@ -1,0 +1,121 @@
+body {
+     margin: 0;
+     padding: 0;
+}
+
+body * {
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+     #wd-kambaz .wd-main-content-offset {
+          padding-left: 140px !important;
+     }
+}
+
+.list-group.wd>.list-group-item.active {
+     color: black;
+     background-color: white;
+     border-left: 3px solid black !important;
+}
+
+.btn-secondary {
+     --bs-btn-color: #000 !important;
+     --bs-btn-bg: #c7cdd1 !important;
+     --bs-btn-border-color: #c7cdd1 !important;
+     --bs-btn-hover-color: #fff !important;
+}
+
+.bg-secondary {
+     --bs-secondary-rgb: 199, 205, 209;
+}
+
+.list-group-item {
+     --bs-list-group-border-color: gray;
+}
+
+.wd-lesson {
+     border-left: 3px solid green !important;
+}
+
+.bring-down {
+     position: relative;
+     top: 25px;
+     left: 20px;
+}
+
+.bring-down-first {
+     position: relative;
+     top: 25px;
+}
+
+.bring-over {
+     position: relative;
+     width:1010px;
+     left: 50px;
+}
+.center-box {
+     position: relative;
+     left: 10px;
+     bottom: 5px;
+}
+.center-editor-labels {
+     position: relative;
+     left: 100px;
+     bottom: 5px;
+     
+}
+.move-card {
+     
+     left:10px;
+     bottom: 5px;
+     width: 500px;
+     height: 150px;
+
+}
+.center-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10px;
+   }
+   .move-online {
+     margin-left: 10px;
+   }
+.small-dropdown {
+     width: 450px;
+     /* max-width: 85%; */
+   }
+
+   .center-box-next {
+     position: relative;
+     left: 40px;
+     bottom: 5px;
+}
+.move-card-2 {
+     
+     left:510px;
+     bottom: 20px;
+     width: 500px;
+     height: 150px;
+     
+
+}
+
+.small-dropdown-2 {
+     width: 420px;
+   }
+   .half-size {
+     width: 210px;
+   }
+
+   .btn-red {
+     --bs-btn-color: #000 !important;
+     --bs-btn-bg: #c7cdd1 !important;
+     --bs-btn-border-color: #c7cdd1 !important;
+     --bs-btn-hover-color: #fff !important;
+}
+
+.make-assignment-move {
+     left: 630px;
+   }
