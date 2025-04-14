@@ -1,4 +1,4 @@
-import { Button, FormControl, ListGroup } from "react-bootstrap";
+import { Button, Dropdown, DropdownButton, FormControl, ListGroup } from "react-bootstrap";
 import { BsCheckCircleFill, BsGripVertical, BsRocketTakeoff } from "react-icons/bs";
 import { FaPlus } from "react-icons/fa";
 import { HiMagnifyingGlass } from "react-icons/hi2";
@@ -39,6 +39,14 @@ export default function Quizzes() {
   useEffect(() => {
     console.log("Updated Assignments:", assignments);
   }, [assignments]);
+
+  function togglePublish(_id: any): void {
+    throw new Error("Function not implemented.");
+  }
+
+  function handleDeleteQuiz(_id: any): void {
+    throw new Error("Function not implemented.");
+  }
 
 //   const handleAddAssignment = () => {
 //     const newAssignment = {
@@ -127,14 +135,32 @@ export default function Quizzes() {
                   {/* <DeleteButton assignmentTitle={""} deleteAssignment={function (assignmentTitle: string): void {
                               throw new Error("Function not implemented.");
                           } }/> */}
-                          <div className="float-end "> <IoEllipsisVertical className="fs-4 float-end " />
-                          <BsCheckCircleFill className="fs-4  me-3 text-success"/>
-                          </div>
       
 
                 </p>
+                
                    
               </div>
+              <div className="float-end "> 
+                          <DropdownButton 
+                id="dropdown-basic-button" 
+                title={<IoEllipsisVertical className="fs-4 " />}
+                drop="end"
+                className="ms-3 float-end"
+                variant="light" 
+              >
+                <Dropdown.Item onClick={() => togglePublish(assignment._id)}>
+                  {assignment.published ? "Unpublish" : "Publish"}
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link to={`/quiz/${assignment._id}`}>Edit</Link>
+                </Dropdown.Item>
+                <Dropdown.Item onClick={() => handleDeleteQuiz(assignment._id)}>
+                  Delete
+                </Dropdown.Item>
+              </DropdownButton>
+                          <BsCheckCircleFill className="fs-4  me-3 text-success"/>
+                          </div>
 
 
               <br /><br /><br/>
