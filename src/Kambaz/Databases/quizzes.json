@@ -1,0 +1,103 @@
+{
+    "quizzes": [
+      {
+        "_id": "Q101",
+        "title": "Aerodynamics Quiz",
+        "course": "RS101",
+        "availableDate": "May 6 at 12:00am",
+        "dueDate": "May 13 at 11:59pm",
+        "points": "100",
+        "getDueDate": "2024-05-13",
+        "getAvailableFrom": "2024-05-06",
+        "getAvailableUntil": "2024-05-20",
+        "published": false,
+        "numberOfQuestions": 10,
+        "score": null
+      },
+      {
+        "_id": "Q102",
+        "title": "Fluid Mechanics Quiz",
+        "course": "RS102",
+        "availableDate": "May 10 at 12:00am",
+        "dueDate": "May 15 at 11:59pm",
+        "points": "100",
+        "getDueDate": "2024-05-15",
+        "getAvailableFrom": "2024-05-10",
+        "getAvailableUntil": "2024-05-20",
+        "published": true,
+        "numberOfQuestions": 8,
+        "score": 85
+      },
+      {
+        "_id": "Q103",
+        "title": "Thermodynamics Principles",
+        "course": "RS103",
+        "availableDate": "May 15 at 12:00am",
+        "dueDate": "May 25 at 11:59pm",
+        "points": "100",
+        "getDueDate": "2024-05-25",
+        "getAvailableFrom": "2024-05-15",
+        "getAvailableUntil": "2024-05-30",
+        "published": false,
+        "numberOfQuestions": 12,
+        "score": null
+      },
+      {
+        "_id": "Q104",
+        "title": "Space Systems Quiz",
+        "course": "RS104",
+        "availableDate": "May 20 at 12:00am",
+        "dueDate": "May 30 at 11:59pm",
+        "points": "100",
+        "getDueDate": "2024-05-30",
+        "getAvailableFrom": "2024-05-20",
+        "getAvailableUntil": "2024-06-01",
+        "published": true,
+        "numberOfQuestions": 15,
+        "score": 90
+      },
+      {
+        "_id": "Q105",
+        "title": "Rocket Propulsion Quiz",
+        "course": "RS101",
+        "availableDate": "May 25 at 12:00am",
+        "dueDate": "June 5 at 11:59pm",
+        "points": "100",
+        "getDueDate": "2024-06-05",
+        "getAvailableFrom": "2024-05-25",
+        "getAvailableUntil": "2024-06-05",
+        "published": false,
+        "numberOfQuestions": 20,
+        "score": null
+      },
+      {
+        "_id": "Q106",
+        "title": "Structural Integrity Analysis",
+        "course": "RS102",
+        "availableDate": "May 30 at 12:00am",
+        "dueDate": "June 10 at 11:59pm",
+        "points": "100",
+        "getDueDate": "2024-06-10",
+        "getAvailableFrom": "2024-05-30",
+        "getAvailableUntil": "2024-06-12",
+        "published": false,
+        "numberOfQuestions": 18,
+        "score": null
+      },
+      {
+        "_id": "Q107",
+        "title": "Orbital Mechanics Quiz",
+        "course": "RS103",
+        "availableDate": "June 1 at 12:00am",
+        "dueDate": "June 10 at 11:59pm",
+        "points": "100",
+        "getDueDate": "2024-06-10",
+        "getAvailableFrom": "2024-06-01",
+        "getAvailableUntil": "2024-06-10",
+        "published": true,
+        "numberOfQuestions": 14,
+        "score": 95
+      }
+    ]
+  }
+  

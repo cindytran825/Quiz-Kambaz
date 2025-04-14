@@ -65,8 +65,5 @@ export default function Modules() {
                 ))}</ul>)}</li>))}</ul>
   </ListGroup>
 </div>
-
-
-
     
    );}
