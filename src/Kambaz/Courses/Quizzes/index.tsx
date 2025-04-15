@@ -11,6 +11,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { v4 as uuidv4 } from "uuid";
 import DeleteButton from "../Assignments/DeleteButton";
 import { BiCheckCircle } from "react-icons/bi";
+import QuizDetails from "./Details";
 
 export default function Quizzes() {
   const { cid, aid } = useParams();
@@ -169,7 +170,7 @@ export default function Quizzes() {
         }
       
       </ListGroup>
-      
     </div>
+
   );
 }
